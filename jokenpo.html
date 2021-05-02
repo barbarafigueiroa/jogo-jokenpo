@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Let's play?</title>
+    <link rel="stylesheet" href="jokenpo.css">
+    
+</head>
+<body>
+    <strong><h1>PEDRA, PAPEL OU TESOURA?</h1></strong>
+    <h3>Escolhe tua opção:</h3> 
+    <img id = "pedraimg" src="pedra.png" alt="pedra">
+    <img id = "papelimg" src="papel.png" alt="papel">
+    <img id = "tesouraimg" src="tesoura.png" alt="tesoura">   
+    <form name="frmJokenpo">
+        <input type="radio" value="ppedra" name="grupo" id="bPedra">PEDRA
+        <input type="radio" value = "ppapel" name="grupo" id="bPapel">PAPEL
+        <input type="radio" value="ttesoura" name="grupo" id="bTesoura">TESOURA
+        <p>
+            <input id="jgr" type="button" value="JOGAR" onclick="jogar()">
+            <input id="rst" type="reset" value="RESET" onclick="resetar()">
+        </p>
+    </form>
+    <hr>
+    <h3 id="txt">E tu computador? PEDRA PAPEL OU TESOURA?</h3>
+        <img id="pc" src="monitor.png" alt="monitor" >
+    <hr> 
+    <h3 id="placar">QUEM GANHOU FOI...</h3>   
+    
+   <footer>
+       <p>&copy;@diariodeumadev_</p>
+   </footer>
+    <script src="jokenpo.js"></script>
+
+</body>
+</html>
