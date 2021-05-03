@@ -12,7 +12,6 @@ h3{
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.438);    
 }
 img#pedraimg{
-    cursor: pointer;
     border-radius: 10px;
     padding: 15px;
     width:  250px;
@@ -23,7 +22,6 @@ img#pedraimg{
 
 }
 img#papelimg{
-    cursor: pointer;
     border-radius: 10px;
     padding: 15px;
     width:  250px;
@@ -33,7 +31,6 @@ img#papelimg{
     background-color: white;
 }
 img#tesouraimg{
-    cursor: pointer;
     border-radius: 10px;
     padding: 15px;
     width:  250px;
