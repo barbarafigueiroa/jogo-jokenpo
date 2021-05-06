@@ -34,7 +34,7 @@ function jogar(){
 
     }
 }
-function resetar(){//pq eu preciso dessa função?
+function resetar(){
     
     pcVazio.src = "monitor.PNG";
     resultado. innerHTML = "";
