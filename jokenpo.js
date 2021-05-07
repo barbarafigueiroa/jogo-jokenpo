@@ -12,13 +12,13 @@ function jogar(){
         var sorteio = Math.floor(Math.random() *3);//comando para sorteio de numero aleatorio
         switch(sorteio){
             case 0:
-                pcVazio.src="monitorpedra.PNG"
+                pcVazio.src="resources/monitorpedra.png"
                 break
             case 1:
-                pcVazio.src = "monitorpapel.PNG"   
+                pcVazio.src = "resources/monitorpapel.png"   
                 break
             case 2:
-                pcVazio.src = "monitortesoura.PNG"  
+                pcVazio.src = "resources/monitortesoura.png"  
                 break   
         }
         //declarar ganho, perda ou empate
@@ -36,7 +36,7 @@ function jogar(){
 }
 function resetar(){
     
-    pcVazio.src = "monitor.PNG";
+    pcVazio.src = "resources/monitor.png";
     resultado. innerHTML = "";
 
 }
