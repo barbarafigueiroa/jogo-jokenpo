@@ -1,15 +1,16 @@
 body{
+    font-family: 'Pangolin', cursive;
     background: rgb(219, 174, 58);
     text-align: center;
-    font: normal 20pt arial;
-
+    font: normal 25pt;
 }
 h1{
     color: rgb(0, 0, 0);
-    text-shadow: 2px 2px 5px rgba(2, 1, 0, 0.63);
+    text-shadow: 2px 2px 5px rgba(2, 1, 0, 0.40);
 }
 h3{
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.438);    
+    font-size: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.20);    
 }
 img#pedraimg{
     cursor: pointer;
@@ -20,7 +21,10 @@ img#pedraimg{
     box-shadow: 5px 5px 10px rgb(0, 0, 0);
     padding: 10px;
     background-color: white;
-
+    height: 270px; 
+    width: 250px; 
+    display: table-cell; 
+    margin-bottom: 20px;
 }
 img#papelimg{
     cursor: pointer;
@@ -31,6 +35,10 @@ img#papelimg{
     box-shadow: 5px 5px 10px rgb(0, 0, 0);
     padding: 10px;
     background-color: white;
+    height: 270px; 
+    width: 250px; 
+    display: table-cell; 
+    margin-bottom: 20px;
 }
 img#tesouraimg{
     cursor: pointer;
@@ -41,6 +49,10 @@ img#tesouraimg{
     box-shadow: 5px 5px 10px rgb(0, 0, 0);
     padding: 10px;
     background-color: white;
+    height: 270px; 
+    width: 250px; 
+    display: table-cell; 
+    margin-bottom: 20px;
 }
 img#pc{
     border-radius: 10px;
@@ -52,17 +64,17 @@ img#pc{
     background-color: white; 
 }
 input#jgr{
-    font: normal 15;
+    font: normal 18;
     border-radius: 10px;
     padding: 15px;
     width:  250px;
     margin: auto;
     box-shadow: 5px 5px 10px rgb(0, 0, 0);
     padding: 10px;
-    background-color: white;
+    background-color: rgb(241 26 177 / 60%);
 }
 input#rst{
-    font: normal 15;
+    font: normal 18;
     border-radius: 10px;
     padding: 15px;
     width:  250px;
@@ -70,7 +82,6 @@ input#rst{
     box-shadow: 5px 5px 10px rgb(0, 0, 0);
     padding: 10px;
     background-color: white;
-
     
 }
 footer{
@@ -78,4 +89,36 @@ footer{
     text-align: center;
     font-style: italic;
 
+}
+#txt{
+    font-size: 20px
+}
+.radio_label {
+    font-size: 23px;
+}
+
+.container_image {
+    float: left;
+    padding: 8px;
+    display: grid;
+    align-content: flex-end;
+}
+
+.container_form {
+    padding: 10px;
+    margin: 5px;
+    text-align: justify;
+    display: inline-block;
+}
+
+.container {
+    display: table;margin: 0 auto;
+}
+
+.holder {
+    width: 100%;
+}
+
+.btn_play {
+    
 }

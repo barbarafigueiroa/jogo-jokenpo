@@ -1,38 +1,73 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Let's play?</title>
     <link rel="stylesheet" href="jokenpo.css">
-    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <strong><h1>PEDRA, PAPEL OU TESOURA?</h1></strong>
-    <h3>Escolhe tua opção:</h3> 
-    <label for=bPedra><img id = "pedraimg" src="pedra.png" alt="pedra"></label>
-    <label for=bPapel><img id = "papelimg" src="papel.png" alt="papel"></label>
-    <label for=bTesoura><img id = "tesouraimg" src="tesoura.png" alt="tesoura"></label> 
-    <form name="frmJokenpo">
-        <input type="radio" value="ppedra" name="grupo" id="bPedra">PEDRA
-        <input type="radio" value = "ppapel" name="grupo" id="bPapel">PAPEL
-        <input type="radio" value="ttesoura" name="grupo" id="bTesoura">TESOURA
-        <p>
-            <input id="jgr" type="button" value="JOGAR" onclick="jogar()">
-            <input id="rst" type="reset" value="RESET" onclick="resetar()">
-        </p>
-    </form>
-    <hr>
-    <h3 id="txt">E tu computador? PEDRA PAPEL OU TESOURA?</h3>
-        <img id="pc" src="monitor.png" alt="monitor" >
-    <hr> 
-    <h3 id="placar">QUEM GANHOU FOI...</h3>   
+    <strong>
+        <h1>PEDRA, PAPEL OU TESOURA?</h1>
+    </strong>
+    <h3>Escolhe tua opção:</h3>
+    <div>
+        <div class="holder">
+            <div class="container">
+                <form name="frmJokenpo">
+                    <div class="container_form">
+                        <div class="container_image">
+                            <img id="pedraimg" src="resources/pedra.png" alt="pedra">
+                            <div>
+                                <input type="radio" value="ppedra" name="grupo" id="bPedra">
+                                <label class="radio_label" for="bPedra">PEDRA</label>
+                            </div>
+                        </div>
+                        <div class="container_image">
+                            <img id="papelimg" src="resources/papel.png" alt="papel">
+                            <div>
+                                <input type="radio" value="ppapel" name="grupo" id="bPapel">
+                                <label class="radio_label" for="bPapel">PAPEL</label>
+                            </div>
+                        </div>
+                        <div class="container_image">
+                            <img id="tesouraimg" src="resources/tesoura.png" alt="tesoura">
+                            <div>
+                                <input type="radio" value="ttesoura" name="grupo" id="bTesoura">
+                                <label class="radio_label" for="bTesoura">TESOURA</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <p>
+                            <input id="jgr" type="button" class="btn_play" value="JOGAR" onclick="jogar()">
+                            <input id="rst" type="reset" value="RESET" onclick="resetar()">
+                        </p>
+                    </div>
+                </form>
+            </div>
+            <hr>
+            <div>
+                <h3 id="txt">E tu computador? PEDRA PAPEL OU TESOURA?</h3>
+                <img id="pc" src="resources/monitor.png" alt="monitor">
+                <hr>
+                <h3 id="placar">QUEM GANHOU FOI...</h3>
+            </div>
     
-   <footer>
-       <p>&copy;@diariodeumadev_</p>
-   </footer>
+            <footer>
+                <a href="https://www.instagram.com/diariodeumadev_/">@diariodeumadev_</a>
+                <br>
+                <a href="https://github.com/barbarafigueiroa/jogo-jokenpo">github.com/barbarafigueiroa</a>                
+            </footer>
+        </div>
+    </div>
     <script src="jokenpo.js"></script>
 
 </body>
+
 </html>
